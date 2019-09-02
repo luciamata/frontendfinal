@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>The Temple Inn and Suites | Contact</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Contact page for The Temple Inn and Suites">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css" type="text/css">
+        <link rel="stylesheet" href="css/medium.css" type="text/css">
+        <link rel="stylesheet" href="css/large.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="heading">
+                <img src="images/templesitelogo.gif" alt="Logo for The Temple Inn and Suites">
+                <h1>The Temple Inn and Suites</h1>
+                <h2>Making your experience peaceful</h2>
+            </div>
+            <nav>
+                <ul class="mainmenu">
+                    <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html" class="currentpage">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h3>Contact Us</h3>
+            <div class="contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837028509!2d-77.09772048492698!3d38.98325594948427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1554786846793!5m2!1sen!2sus"></iframe>
+                <div class="contacttext">
+                    <h3>The Temple Inn and Suites</h3>
+                    <p>4800 Montgomery Ln #300</p>
+                    <p>Bethesda, MD 20814</p>
+                    <p>999.999.9999</p>
+                    <p>costumerservice@templeinn.com</p>
+                    <img src="images/officebuilding.jpg" alt="The Temple Inn and Suites Headquarters">
+                </div>
+            </div>
+            <form action="thankscontact.html">
+                <h4>Send us a Message</h4>
+                <div class="item">
+                    <label>Full Name: </label><input type="text" class="boxform" name="firstlast" required pattern="[A-Za-z ]{5,}" placeholder="Your Name">
+                </div>
+                <div class="item">
+                    <label>Email: </label><input type="email" class="boxform" name="email" placeholder="Your email">
+                </div>
+                <div class="item">
+                    <label>Phone Number: </label><input type="tel" class="boxform" name="phone" required placeholder="Your Phone Number">
+                </div>
+                <div>
+                    <textarea name="extrainfo" cols="60" rows="10" class="contactbox">Enter comments here...</textarea>
+                </div>
+                <div>
+                    <input type="submit" class="submitform">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="contactinfo">
+                <div class="address">
+                    <h3>The Temple Inn and Suites</h3>
+                    <p>4800 Montgomery Ln #300</p>
+                    <p>Bethesda, MD 20814</p>
+                </div>
+                <div class="phone">
+                    <p>999.999.9999</p>
+                    <p>costumerservice@templeinn.com</p>
+                </div>
+                <div class="socialmedia">
+                    <a href="#"></a><img src="images/facebook.png" alt="Follow us on Facebook">
+                    <a href="#"></a><img src="images/instagram.png" alt="Follow us on Instagram">
+                    <a href="#"></a><img src="images/pinterest.png" alt="Follow us on Pinterest">
+                    <a href="#"></a><img src="images/twitter.png" alt="Follow us on Twitter">
+                </div>
+            </div>
+            <div class="footer">
+                <a href="resources.html">Resources</a>
+                <p>&copy; 2019 The Temple Inn and Suites | BYU - Idaho | Lucia Mata</p>
+                <span id="date">Placeholder</span>
+            </div>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+    </body>
+</html>

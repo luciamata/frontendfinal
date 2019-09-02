@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>The Temple Inn and Suites | Reservations</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Reservations page for The Temple Inn and Suites">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css" type="text/css">
+        <link rel="stylesheet" href="css/medium.css" type="text/css">
+        <link rel="stylesheet" href="css/large.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="heading">
+                <img src="images/templesitelogo.gif" alt="Logo for The Temple Inn and Suites">
+                <h1>The Temple Inn and Suites</h1>
+                <h2>Making your experience peaceful</h2>
+            </div>
+            <nav>
+                <ul class="mainmenu">
+                    <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reservations.html" class="currentpage">Reservations</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h3>Reservations</h3>
+            <p>Please fill out this form to submit a room request. We will contact you to finalize your reservation.</p>
+            <form action="thanks.html">
+                    <h4>Guest Information</h4>
+                    <div class="item">
+                        <label>Full Name: </label><input type="text" class="boxform" name="firstlast" required pattern="[A-Za-z ]{5,}" placeholder="Your Name">
+                    </div>
+                    <div class="item">
+                        <label>Email: </label><input type="email" class="boxform" name="email" placeholder="Your email">
+                    </div>
+                    <div class="item">
+                        <label>Phone Number: </label><input type="tel" class="boxform" name="phone" required placeholder="Your Phone Number">
+                    </div>
+                    <div class="item">
+                        <label>Address: </label><input type="text" class="boxform" name="address" required placeholder="Your Address">
+                    </div>
+                    <div class="item">
+                        <label>City: </label><input type="text" class="boxform" name="city" required placeholder="Your City">
+                    </div>
+                    <div class="item">
+                        <label>State: </label><input type="text" class="boxform" name="state" required placeholder="Your State">
+                    </div>
+                    <div class="item">
+                        <label>Zip Code: </label><input type="number" class="boxform" name="zipcode" required placeholder="Your Zipcode">
+                    </div>   
+                    <h4>Room Information</h4>
+                    <div class="dropdown">
+                        <label>Location: </label>
+                        <select name="location">
+                            <option value="select" selected disabled>Select Location...</option>
+                            <option value="Salt Lake City">Salt Lake City</option>
+                            <option value="St George">St George</option>
+                            <option value="Draper">Draper</option>
+                            <option value="Provo City">Provo City</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label class="check">Check In: </label><br>
+                        <label>Month</label> 
+                        <select id="monthin" 
+                                name="monthin"> 
+                            <option>January</option>       
+                            <option>February</option>       
+                            <option>March</option>       
+                            <option>April</option>       
+                            <option>May</option>       
+                            <option>June</option>       
+                            <option>July</option>       
+                            <option>August</option>       
+                            <option>September</option>       
+                            <option>October</option>       
+                            <option>November</option>       
+                            <option>December</option>       
+                        </select> 
+                        <label for="dayin">Day</label> 
+                        <select id="dayin" 
+                                name="dayin"> 
+                            <option>1</option>       
+                            <option>2</option>       
+                            <option>3</option>       
+                            <option>4</option>       
+                            <option>5</option>       
+                            <option>6</option>       
+                            <option>7</option>       
+                            <option>8</option>       
+                            <option>9</option>       
+                            <option>10</option>       
+                            <option>11</option>       
+                            <option>12</option>       
+                            <option>13</option>       
+                            <option>14</option>       
+                            <option>15</option>       
+                            <option>16</option>       
+                            <option>17</option>       
+                            <option>18</option>       
+                            <option>19</option>       
+                            <option>20</option>       
+                            <option>21</option>       
+                            <option>22</option>       
+                            <option>23</option>       
+                            <option>24</option>       
+                            <option>25</option>       
+                            <option>26</option>       
+                            <option>27</option>       
+                            <option>28</option>       
+                            <option>29</option>       
+                            <option>30</option>       
+                            <option>31</option>       
+                        </select> 
+                        <label for="yearin">Year</label> 
+                        <select id="yearin" 
+                                name="yearin"> 
+                            <option>2019</option>       
+                            <option>2020</option>       
+                            <option>2021</option>       
+                            <option>2022</option>           
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label class="check">Check Out: </label><br>
+                        <label>Month</label> 
+                        <select id="monthout" 
+                                name="monthout"> 
+                            <option>January</option>       
+                            <option>February</option>       
+                            <option>March</option>       
+                            <option>April</option>       
+                            <option>May</option>       
+                            <option>June</option>       
+                            <option>July</option>       
+                            <option>August</option>       
+                            <option>September</option>       
+                            <option>October</option>       
+                            <option>November</option>       
+                            <option>December</option>       
+                        </select> 
+                        <label for="dayout">Day</label> 
+                        <select id="dayout" 
+                                name="dayout"> 
+                            <option>1</option>       
+                            <option>2</option>       
+                            <option>3</option>       
+                            <option>4</option>       
+                            <option>5</option>       
+                            <option>6</option>       
+                            <option>7</option>       
+                            <option>8</option>       
+                            <option>9</option>       
+                            <option>10</option>       
+                            <option>11</option>       
+                            <option>12</option>       
+                            <option>13</option>       
+                            <option>14</option>       
+                            <option>15</option>       
+                            <option>16</option>       
+                            <option>17</option>       
+                            <option>18</option>       
+                            <option>19</option>       
+                            <option>20</option>       
+                            <option>21</option>       
+                            <option>22</option>       
+                            <option>23</option>       
+                            <option>24</option>       
+                            <option>25</option>       
+                            <option>26</option>       
+                            <option>27</option>       
+                            <option>28</option>       
+                            <option>29</option>       
+                            <option>30</option>       
+                            <option>31</option>       
+                        </select> 
+                        <label for="yearout">Year</label> 
+                        <select id="yearout" 
+                                name="yearout"> 
+                            <option>2019</option>       
+                            <option>2020</option>       
+                            <option>2021</option>       
+                            <option>2022</option>           
+                        </select>
+                    </div>
+                    <div class="dropdown" id="roomtype">
+                        <label>Room Type: </label>
+                        <select name="roomtype">
+                            <option value="select" selected disabled>Select Room Type...</option>
+                            <option value="Salt Lake City">1 King</option>
+                            <option value="St George">2 Queen</option>
+                            <option value="Draper">1 Bedroom Suite</option>
+                            <option value="Provo City">2 Bedroom Suite</option>
+                        </select>
+                    </div>
+                    <div class="list">
+                        <span class="roomnum">Number of Rooms: </span><br>
+                        <input type="radio" name="room" value="1" checked>1<br>
+                        <input type="radio" name="room" value="2">2<br>
+                        <input type="radio" name="room" value="3">3<br>
+                        <input type="radio" name="room" value="4">4<br>
+                        <input type="radio" name="room" value="5">5<br>
+                    </div>
+                <h4>Special Requests: </h4>
+                <div>
+                    <textarea name="extrainfo" cols="60" rows="10" class="messagebox">Enter comments here...</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Room Request" class="submitform">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="contactinfo">
+                <div class="address">
+                    <h3>The Temple Inn and Suites</h3>
+                    <p>4800 Montgomery Ln #300</p>
+                    <p>Bethesda, MD 20814</p>
+                </div>
+                <div class="phone">
+                    <p>999.999.9999</p>
+                    <p>costumerservice@templeinn.com</p>
+                </div>
+                <div class="socialmedia">
+                    <a href="#"></a><img src="images/facebook.png" alt="Follow us on Facebook">
+                    <a href="#"></a><img src="images/instagram.png" alt="Follow us on Instagram">
+                    <a href="#"></a><img src="images/pinterest.png" alt="Follow us on Pinterest">
+                    <a href="#"></a><img src="images/twitter.png" alt="Follow us on Twitter">
+                </div>
+            </div>
+            <div class="footer">
+                <a href="resources.html">Resources</a>
+                <p>&copy; 2019 The Temple Inn and Suites | BYU - Idaho | Lucia Mata</p>
+                <span id="date">Placeholder</span>
+            </div>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+    </body>
+</html>

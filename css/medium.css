@@ -1,0 +1,140 @@
+@media only screen and (min-width: 760px) {
+
+/* HEADER */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header img {
+    width: 7%;
+}
+
+/* MAIN */
+
+.feature {
+    background-color: rgb(214, 219, 219);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.featuretext {
+    padding: 10px;
+}
+
+.featuretext h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.featuretext h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+}
+
+.feature p {
+    font-size: 0.65rem;
+}
+
+/* RESERVATIONS */
+
+form {
+    padding: 1em 2em 1em 2em;
+    margin: 2em;
+}
+
+.item input {
+    font-size: 1rem;
+}
+
+select {
+    width: 90%;
+}
+
+/* CONTACT */
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(214, 219, 219);
+}
+
+.contacttext {
+    text-align: center;
+}
+
+/* SERVICES */
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services ul {
+    padding: 0 7% 0 7%;
+}
+
+.services li {
+    padding: 1%;
+}
+
+.services li {
+    font-size: 1rem;
+    padding-left: 2%;
+}
+
+.buttonservices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* RECEPTIONS */
+
+.receptionimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* TEMPLES */
+
+.templepagediv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+
+.templepagediv img {
+    margin-top: 0;
+}
+
+/* INDIVIDUAL TEMPLE PAGES */
+
+.templediv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.templedetails img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* MISSIONARIES */
+
+#suites {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+
+}

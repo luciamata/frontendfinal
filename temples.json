@@ -1,0 +1,55 @@
+{
+    "temples" : [
+       {
+        "name": "Salt Lake City",
+        "closures": [
+            "Tuesday, 2 July 2019 - Monday, 15 July 2019",
+            "Wednesday, 24 July 2019",
+            "Saturday, 5 October 2019",
+            "Wednesday, 27 November 2019 (Limited Hours)",
+            "Thursday, 28 November 2019 - Friday, 29 November 2019",
+            "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019"
+        ]
+       },
+       {
+           "name": "Draper",
+           "closures": [
+            "Thursday, 4 July 2019",
+            "Wednesday, 24 July 2019",
+            "Monday, 29 July 2019 - Monday, 12 August 2019",
+            "Saturday, 5 October 2019",
+            "Wednesday, 27 November 2019 (Limited Hours)",
+            "Thursday, 28 November 2019",
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019"
+           ]
+       },
+       {
+           "name": "St. George",
+           "closures": [
+               "Monday, 27 May 2019",
+               "Thursday, 4 July 2019",
+               "Wednesday, 24 July 2019",
+               "Monday, 2 September 2019",
+               "Monday, 9 September 2019 - Saturday, 21 September 2019",
+               "Saturday, 5 October 2019",
+               "Monday, 4 November 2019 - Friday, 4 November 2022"
+            ]
+       },
+       {
+           "name": "Provo City Center",
+           "closures": [
+              "Sunday, 23 June 2019 - Saturday, 6 July 2019",
+              "Wednesday, 24 July 2019",
+              "Saturday, 5 October 2019",
+              "Wednesday, 27 November 2019 (Limited Hours)",
+              "Thursday, 28 November 2019",
+              "Sunday, 1 December 2019 - Saturday, 14 December 2019",
+              "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+              "Tuesday, 31 December 2019"
+           ]
+       }
+    ]
+}

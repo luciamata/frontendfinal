@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat');
+
+/* BODY */
+
+body {
+    background-color: #F0F7EE;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+/* HEADER */
+
+header {
+    background-color: #12202C;
+}
+
+header img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #835E38;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(136, 139, 139);
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 50px;
+}
+
+.heading {
+    line-height: 5px;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #AEBEBE;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainmenu {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu li:first-child {
+    display: block;
+}
+
+.mainmenu li {
+    display: none;
+}
+
+.mainmenu a {
+    display: block; 
+    color: #000000;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.mainmenu .currentpage {
+    color: #835E38;
+}
+
+.mainmenu a:hover {
+    color: #AEBEBE;
+    background-color: #12202C;
+}
+
+.responsive li { 
+    display: block; 
+}
+
+/* HOME */
+
+.intro {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(214, 219, 219);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    border-radius: 15px 50px;
+}
+
+.feature {
+    background-color: rgb(214, 219, 219);
+}
+
+.feature img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featuretext {
+    padding: 20px;
+}
+
+
+.featuretext h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.featuretext h4 {
+    font-size: 1.5rem;
+}
+
+.buttonp {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.button {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #12202C;
+    border: solid 2px #AEBEBE;
+    color: #AEBEBE;
+}
+
+.button:hover {
+    background-color: #835E38;
+}
+
+/* FOOTER */
+
+.contactinfo {
+    background-color: #AEBEBE;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.contactinfo h3 {
+    color: #835E38;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #12202C;
+    text-align: center;
+    padding: 10px;
+    color: #AEBEBE;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #835E38;
+}
+
+.footer a:hover {
+    color: #AEBEBE;
+}
+
+/* RESERVATIONS */
+
+form {
+    background-color: rgb(214, 219, 219);
+    margin: 0;
+    padding: 5%;
+    border-radius: 15px 50px;
+}
+
+.item {
+    display: flex;
+    padding: .5em;
+}
+
+.item label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+
+.item input {
+    flex: 2;
+    padding: .5em;
+    font-size: 0.5rem;
+}
+
+.dropdown {
+    padding: 0.5em;
+}
+
+.dropdown label, .check {
+    padding: 1.5em 3em .5em 0;
+}
+
+.check {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+select {
+    border: 2px solid #AEBEBE;
+    background-color: #ffffff;
+    width: 100%;
+    padding: .5em 3em .5em 0;
+}
+
+.list {
+    padding: 0.5em;
+    margin-top: 1.5em;
+}
+
+.messagebox {
+    background-color: #ffffff;
+    border: 2px solid #AEBEBE;
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.submitform {
+    padding: 1% 10% 1% 10%;
+    margin: 0 auto;
+    display: block;
+    background-color: #12202C;
+    color: #F0F7EE;
+    border: 2px solid #AEBEBE;
+}
+
+.submitform:hover {
+    background-color: #835E38;
+}
+
+#roomtype {
+    margin-top: 2em;
+}
+
+/* THANK YOU */
+
+.thanks {
+    text-align: center;
+}
+
+.thanks img {
+    margin-top: 2%;
+    width: 40%;
+}
+
+/* CONTACT */
+
+.contactbox {
+    margin-top: 2em;
+    border: 2px solid #AEBEBE;
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.contact {
+    background-color: rgb(214, 219, 219);
+    border-radius: 15px 50px;
+}
+
+.contact img {
+    width: 100%;
+}
+
+.contacttext {
+    text-align: center;
+}
+
+/* SERVICES */
+
+.services {
+    background-color: rgb(214, 219, 219);
+    border-radius: 15px 50px;
+}
+
+.services ul {
+    padding: 0 10% 0 10%;
+}
+
+.services li {
+    padding: 2%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.services img {
+    width: 100%;
+}
+
+.buttonserv {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #12202C;
+    border: solid 2px #AEBEBE;
+    color: #AEBEBE;
+    margin-top: 4%;
+}
+
+.buttonserv:hover {
+    background-color: #835E38;
+}
+
+/* RECEPTIONS */
+
+.receptions {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.25rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(214, 219, 219);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    border-radius: 15px 50px;
+}
+
+.receptionimg img {
+    width: 100%;
+}
+
+/* TEMPLES */
+
+.templepagediv {
+    background-color: rgb(214, 219, 219);
+    border-radius: 15px 50px;
+    padding: 3%;
+}
+
+.templepagediv img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.templetitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.templetitle a {
+    text-align: center;
+    width: 50%;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #12202C;
+    border: solid 2px #AEBEBE;
+    color: #AEBEBE;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.templetitle a:hover {
+    background-color: #835E38;
+}
+
+/* INDIVIDUAL TEMPLE PAGES */
+
+.templediv {
+    background-color: rgb(214, 219, 219);
+    border-radius: 15px 50px;
+    padding: 5%;
+    margin-top: 3%;
+}
+
+.templediv img {
+    width: 100%;
+}
+
+.schedule {
+    text-align: center;
+}
+
+.templedetails {
+    background-color: rgb(214, 219, 219);
+    border-radius: 15px 50px;
+    padding: 3%;
+}
+
+.templeclosures li {
+    list-style-type: none;
+    line-height: 170%;
+}
+
+.weathersummary p {
+    margin-left: 13%;
+}
+
+.templedetails img {
+    width: 100%;
+}
+
+/* RESOURCES */
+
+.resourcesgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.resourcesgallery img {
+    width: 100%;
+}
+
+.resources a {
+    margin-left: 4%;
+}

@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1000px) {
+
+/* NAVIGATION */
+
+.mainmenu li:first-child { 
+    display: none;	
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;            
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+}    
+
+/* MAIN */
+
+.feature {
+    background-color: rgb(214, 219, 219);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.featuretext {
+    padding: 20px;
+}
+
+.featuretext h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.featuretext h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.feature p {
+    font-size: .70rem;
+}
+
+/* RESERVATIONS */
+
+select {
+    width: 20%;
+}
+
+/* SERVICES */
+
+.services li {
+    font-size: 1.5rem;
+}
+
+/* TEMPLES */
+
+.templepagediv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+}
+
+/* INDIVIDUAL TEMPLE PAGES */
+
+.templedetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+}
+
+.templedetails img {
+    width: 100%;
+}
+
+
+}
